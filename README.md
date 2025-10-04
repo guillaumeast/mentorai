@@ -15,7 +15,7 @@ Minimal YouTube-to-GPT generator – converts any YouTube channel into a ready-t
 
 - Fully local – no API keys or cloud services needed
 - Only requires [`yt-dlp`](https://github.com/yt-dlp/yt-dlp)
-- Supports full channel URLs or YouTube handles (e.g. `@CoachGali`)
+- Supports full channel URLs or YouTube handles (e.g. `@GoogleDevelopers`)
 - Outputs everything needed to configure a GPT via [chat.openai.com/gpts](https://chat.openai.com/gpts):
   - 🖼️ Profile picture
   - 🧠 Cleaned and chunked transcripts (20 files max)
@@ -69,7 +69,7 @@ brew install yt-dlp jq curl grep gnu-sed
 ## 🧪 Example
 
 ```bash
-./mentorai.sh https://www.youtube.com/@CoachGali
+./mentorai.sh https://www.youtube.com/@GoogleDevelopers
 ```
 
 Then go to [https://chat.openai.com/gpts](https://chat.openai.com/gpts) and:
