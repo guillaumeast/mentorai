@@ -2,9 +2,9 @@
 
 Minimal YouTube-to-GPT generator – converts any YouTube channel into a ready-to-upload Custom GPT package, **in one CLI command**.
 
-[![Language: Bash](https://img.shields.io/badge/language-Bash-blue)](https://www.gnu.org/software/bash/)
-[![Platform: macOS/Linux](https://img.shields.io/badge/platform-macOS%20%26%20Linux-darkgreen)](https://en.wikipedia.org/wiki/Unix-like)
-[![Status: v0.1.0](https://img.shields.io/badge/status-v0.1.0-yellow)](https://github.com/guillaumeast/mentorai/releases)
+[![Language: Bash](https://img.shields.io/badge/language-Bash-darkgreen)](https://www.gnu.org/software/bash/)
+[![Platform: macOS/Linux](https://img.shields.io/badge/platform-macOS%20%26%20Linux-blue)](https://en.wikipedia.org/wiki/Unix-like)
+[![Status: v0.1.0](https://img.shields.io/badge/status-v0.1.0-f36d00)](https://github.com/guillaumeast/mentorai/releases)
 
 > **`mentorai`** creates a complete Custom GPT pack from any YouTube channel, including profile, prompt, and transcript knowledge –  
 > so you can talk to your favorite creator, expert, or guru… as if they were right there with you.
@@ -15,7 +15,7 @@ Minimal YouTube-to-GPT generator – converts any YouTube channel into a ready-t
 
 - Fully local – no API keys or cloud services needed
 - Only requires [`yt-dlp`](https://github.com/yt-dlp/yt-dlp)
-- Supports full channel URLs or YouTube handles (e.g. `@CoachGali`)
+- Supports full channel URLs or YouTube handles (e.g. `@GoogleDevelopers`)
 - Outputs everything needed to configure a GPT via [chat.openai.com/gpts](https://chat.openai.com/gpts):
   - 🖼️ Profile picture
   - 🧠 Cleaned and chunked transcripts (20 files max)
@@ -69,7 +69,7 @@ brew install yt-dlp jq curl grep gnu-sed
 ## 🧪 Example
 
 ```bash
-./mentorai.sh https://www.youtube.com/@CoachGali
+./mentorai.sh https://www.youtube.com/@GoogleDevelopers
 ```
 
 Then go to [https://chat.openai.com/gpts](https://chat.openai.com/gpts) and:
