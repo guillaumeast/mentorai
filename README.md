@@ -6,6 +6,7 @@ Minimal YouTube-to-GPT generator – converts any YouTube channel into a ready-t
 > so you can talk to your favorite creator, expert, or guru… as if they were right there with you.
 
 [![Language: Bash](https://img.shields.io/badge/language-Bash-89e051)](https://www.gnu.org/software/bash/)
+[![Type: CLI](https://img.shields.io/badge/type-CLI-8b949e)]()
 [![Platform: macOS/Linux](https://img.shields.io/badge/platform-macOS%20%26%20Linux-blue)](https://en.wikipedia.org/wiki/Unix-like)
 [![Status: v0.1.0](https://img.shields.io/badge/status-v0.1.0-darkgreen)](https://github.com/guillaumeast/mentorai/releases)
 
