@@ -2,12 +2,12 @@
 
 Minimal YouTube-to-GPT generator – converts any YouTube channel into a ready-to-upload Custom GPT package, **in one CLI command**.
 
-[![Language: Bash](https://img.shields.io/badge/language-Bash-darkgreen)](https://www.gnu.org/software/bash/)
-[![Platform: macOS/Linux](https://img.shields.io/badge/platform-macOS%20%26%20Linux-blue)](https://en.wikipedia.org/wiki/Unix-like)
-[![Status: v0.1.0](https://img.shields.io/badge/status-v0.1.0-f36d00)](https://github.com/guillaumeast/mentorai/releases)
-
 > **`mentorai`** creates a complete Custom GPT pack from any YouTube channel, including profile, prompt, and transcript knowledge –  
 > so you can talk to your favorite creator, expert, or guru… as if they were right there with you.
+
+[![Language: Bash](https://img.shields.io/badge/language-Bash-89e051)](https://www.gnu.org/software/bash/)
+[![Platform: macOS/Linux](https://img.shields.io/badge/platform-macOS%20%26%20Linux-blue)](https://en.wikipedia.org/wiki/Unix-like)
+[![Status: v0.1.0](https://img.shields.io/badge/status-v0.1.0-darkgreen)](https://github.com/guillaumeast/mentorai/releases)
 
 ---
 
@@ -69,7 +69,7 @@ brew install yt-dlp jq curl grep gnu-sed
 ## 🧪 Example
 
 ```bash
-./mentorai.sh https://www.youtube.com/@GoogleDevelopers
+./mentorai.bash https://www.youtube.com/@GoogleDevelopers
 ```
 
 Then go to [https://chat.openai.com/gpts](https://chat.openai.com/gpts) and:
@@ -96,6 +96,4 @@ mentorai/
 
 ---
 
-## 👤 Author
-
-Made with 🧠 by [@guillaumeast](https://github.com/guillaumeast)
+> _"Turn inspiration into conversation — one channel at a time.”_ 🎙️
